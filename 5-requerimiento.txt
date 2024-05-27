@@ -1,0 +1,8 @@
+https://desafio4-express.onrender.com/login
+https://desafio4-express.onrender.com/dashboard
+https://desafio4-express.onrender.com/detail/:id
+
+1. Para utilizar el dashboard hay que pasar primero por la ruta login para que nos de el token, por ejemplo pasamos a login y tenemos que mandar en el body una información como JSON, lo cual seria 
+{ username: 'juanperez', password: 'mi123'}
+
+2. Ya enviado el token se redireciona al dashboard donde esta consumiendo con axios la ruta detail, la ruta detail retorna la informacion del id, el id es enviado en la ruta por parametros, 
